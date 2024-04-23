@@ -15,7 +15,7 @@ on:
 
 env:
   AWS_ACCESS_KEY_ID: ${{secrets.AWS_ACCESS_KEY_ID}}
-  AWS_SECRET_ACCESS_ID: ${{secrets.AWS_SECRET_ACCESS_ID}} # Corrected secret name
+  AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_SECRET_ACCESS_KEY}} # Corrected secret name
   BUCKET_TF_STATE: ${{secrets.BUCKET_TF_STATE}}
   AWS_REGION: us-east-2
   EKS_CLUSTER: vprofile-eks
